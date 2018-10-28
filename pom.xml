@@ -7,10 +7,8 @@
    <groupId>ru.eskendarov.ea</groupId>
    <artifactId>multithreading-first-part</artifactId>
    <version>1.0-SNAPSHOT</version>
-
    <name>multithreading-first-part</name>
    <url>https://github.com/EnverGeekBrains</url>
-
    <developers>
       <developer>
          <name>Enver Eskendarov</name>
@@ -23,13 +21,11 @@
          </roles>
       </developer>
    </developers>
-
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
    </properties>
-
    <dependencies>
       <dependency>
          <groupId>junit</groupId>
@@ -44,7 +40,6 @@
          <scope>provided</scope>
       </dependency>
    </dependencies>
-
    <build>
       <finalName>ThreadFirstPart</finalName>
       <plugins>

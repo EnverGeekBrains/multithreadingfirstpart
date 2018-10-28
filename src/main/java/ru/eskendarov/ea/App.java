@@ -15,16 +15,13 @@ public class App {
     new Thread(new WaitNotifyClass('B', 'C')).start();
     new Thread(new WaitNotifyClass('C', 'A')).start();
   }
-
   static class WaitNotifyClass implements Runnable {
     private final char currentLetter;
     private final char nextLetter;
-
     WaitNotifyClass(char currentLetter, char nextLetter) {
       this.currentLetter = currentLetter;
       this.nextLetter = nextLetter;
     }
-
     @Override
     public void run() {
       for (int i = 0; i < 5; i++) {
